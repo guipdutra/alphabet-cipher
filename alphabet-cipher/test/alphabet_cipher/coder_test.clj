@@ -9,9 +9,9 @@
     (is (= "egsgqwtahuiljgs"
            (encode "scones" "meetmebythetree")))))
 
-(deftest test-decode
-  (testing "can decode an cyrpted message given a secret keyword"
-    (is (= "meetmeontuesdayeveningatseven"
-           (decode "vigilance" "hmkbxebpxpmyllyrxiiqtoltfgzzv")))
-    (is (= "meetmebythetree"
-           (decode "scones" "egsgqwtahuiljgs")))))
+;(deftest test-decode
+;  (testing "can decode an cyrpted message given a secret keyword"
+;   (is (= "meetmeontuesdayeveningatseven"
+;          (decode "vigilance" "hmkbxebpxpmyllyrxiiqtoltfgzzv")))
+;   (is (= "meetmebythetree"
+;          (decode "scones" "egsgqwtahuiljgs")))))
